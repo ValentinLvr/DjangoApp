@@ -3,7 +3,7 @@ project_id=
 service_name= djangoapp
 
 build:
-    docker-compose build
+	docker-compose build
 
 get_images:
 	sudo docker images
