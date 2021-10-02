@@ -13,7 +13,7 @@ Django App deployed on Google cloud run
 
 ## 4e étape: Déploiement du conteneur dans Google Cloud Run: 
 ```
-    make deploy_GCP
+    $ make deploy_GCP
 ```
 Avant cette étape, bien s'assurer de s'être autentifié sur le SDK google:
 ```
