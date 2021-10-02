@@ -15,10 +15,11 @@ Django App deployed on Google cloud run
 ```
     make deploy_GCP
 ```
-    --> avant cette étape, bien s'assurer de s'être autentifié sur le SDK google:
+Avant cette étape, bien s'assurer de s'être autentifié sur le SDK google:
+```
         $ gcloud auth login
         $ gcloud auth configure-docker
-
+```
 ## Déploiement du conteneur en local: 
 ```
     $ make deploy_local 
